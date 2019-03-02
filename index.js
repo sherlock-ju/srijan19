@@ -9,11 +9,12 @@ function submitClick(){
         document.getElementsByClassName('main-body')[0].setAttribute("height", "100%");
         setTimeout(() => {
             alert("Your time is up! Please submit the test within '30 sec' otherwise you will loose your progress!");
+            setTimeout(() => {
+                document.getElementById('google-form-div').style.display = "none";
+                document.getElementsByClassName('thank-you')[0].style.display = "block";
+                window.location.href = "http://google.com";
+            }, 60000);
         }, 2400000);
-        setTimeout(() => {
-            document.getElementById('google-form-div').style.display = "none";
-            document.getElementsByClassName('thank-you')[0].style.display = "block";
-            window.location.href = "http://google.com";
-        }, 60000);
+        
     }
 }
