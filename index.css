@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#google-form-div {
+    display: none;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    margin-top: 15px;
+}
+
+.submit-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thank-you {
+    display: none;
+}
